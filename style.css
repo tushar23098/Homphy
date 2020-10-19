@@ -1,0 +1,182 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+/* navbar */
+#top{
+    background-color: tomato;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -16px;
+}
+
+#logo{
+    margin-left: 10px;
+}
+
+#phone-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#hamburger{
+    margin-left: 9rem;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: end;
+}
+
+/* courosal */
+.carousel-inner button{
+    background-color: tomato;
+    border-radius: 10px;
+    color: whitesmoke;
+    box-shadow: none;
+}
+
+
+/* categories */
+
+#categories, #services, #team, #testimonials, #newsletter, #footer{
+    margin-top: 30px;   
+}
+
+#categories hr{
+    width: 180px;
+}
+
+.feature-img{
+    border: 10px solid white;
+}
+
+/* Services */
+
+#services .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-div{
+    box-sizing: border-box;
+    /* margin-right: 10px; */
+}
+
+.service-div h5{
+    color: whitesmoke;
+}
+
+#services img{
+    width: 8rem;
+    height: 8rem;
+}
+
+#services .card-title{
+padding-top: 50px;
+}
+
+#services button{
+    background-color: tomato;
+    border: none;
+}
+
+/*testimonials*/
+
+#testimonials .Customer-img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#testimonials h5{
+text-align: center;
+}
+
+/* newsletter */
+
+#newsletter{
+    border: 3px solid #707070;
+    background-color: #0CB175;
+    width: 60%;
+}
+
+#newsletter .form-letter{
+    width: 60%;
+}
+
+#newsletter h2{
+    padding-top: 3%;
+    color: whitesmoke;
+}
+
+
+
+
+#newsletter .email-btn{
+    background-color: tomato;
+    color: white;
+    margin-bottom: 3%;
+    border: none;
+}
+
+#letter-privacy{
+    color: white;
+}
+
+#letter-placeholder{
+    color: black;
+}
+
+/* footer */
+
+#footer{
+    background-color: rgb(231, 231, 231);
+    font-size: 15px;
+    color: black;
+    height:30%;
+}
+
+#footer h5{
+    text-align: center;
+}
+
+#footer hr{
+    width: 20%;
+    background: tomato;
+}
+
+#footer a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+}
+
+#footer a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+
+#bottom{
+    color: whitesmoke;
+    background-color: #070707;
+    margin-bottom: 0px;
+    font-size: 13px;
+    height: 10%;
+    margin-top: -4px;
+}
+
+#bottom #bottom-heart{
+    margin-top: -10px;
+}
+
+#bottom p{
+    margin-top: 5px;
+}
